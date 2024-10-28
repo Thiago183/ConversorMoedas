@@ -73,6 +73,9 @@ public class Main {
                         System.out.println("O valor :" + valor + " ,Convertido para Reais : " + result);
                         option = 0;
                         break;
+                    case 0:
+                        System.out.println("Encerrando aplicação.");
+                        break;
                     default:
                         System.out.println("Opçao invalida!!");
 

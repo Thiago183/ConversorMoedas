@@ -15,7 +15,7 @@ import java.net.http.HttpResponse;
 
 public class Conector {
 
-    String apiKey = "3c7a36d6a82571134b85fbc2";
+    String apiKey = "";
     private Gson gson = new Gson();
 
     public Double pegarValorJson(String moeda,String moedaConversao) throws IOException, InterruptedException {
